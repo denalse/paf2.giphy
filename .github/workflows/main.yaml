@@ -36,7 +36,7 @@ jobs:
         outdir: coverage/${{ github.event.repository.name }}
         permission: public-read
     - name: Upload coverage report
-      uses: BetaHuhn/do-spaces-actions@v2
+      uses: BetaHuhn/do-spaces-action@v2
       with:
         access_key: ${{ secrets.access_key }}
         secret_key: ${{ secrets.secret_key }}

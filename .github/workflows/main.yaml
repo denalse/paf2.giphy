@@ -33,7 +33,7 @@ jobs:
         space_name: insanity
         space_region: sgp1
         source: .github/badges/jacoco.svg
-        outdir: coverage/${{ github.event.repository.name }}
+        out_dir: coverage/${{ github.event.repository.name }}
         permission: public-read
     - name: Upload coverage report
       uses: BetaHuhn/do-spaces-action@v2
@@ -43,4 +43,4 @@ jobs:
         space_name: insanity
         space_region: sgp1
         source: target/site/jacoco
-        outdir: coverage/${{ github.event.repository.name }}/report
+        out_dir: coverage/${{ github.event.repository.name }}/report

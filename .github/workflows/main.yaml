@@ -24,7 +24,7 @@ jobs:
     - name: Generate coverage badge
       uses: cicirello/jacoco-badge-generator@v2
       with:
-        generate-coverage-badge:true
+        generate-coverage-badge: true
     - name: Upload coverage badge to DigitalOcean spaces
       uses: BetaHuhn/do-spaces-action@v2
       with:

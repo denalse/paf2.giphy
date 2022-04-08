@@ -43,6 +43,4 @@ jobs:
         space_name: insanity
         space_region: sgp1
         source: target/site/jacoco
-        outdir: coverage/${{ github.event.repository.name }}
-        permission: public-read
-
+        outdir: coverage/${{ github.event.repository.name }}/report

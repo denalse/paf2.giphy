@@ -5,4 +5,4 @@ My first workflow
 Jacoco coverage badge
 
 <!-- ![Coverage](.github/badges/jacoco.svg) -->
-![Coverage](https://insanity.sgp1.digitaloceanspaces/coverage/paf2.giphy)
+![Coverage](https://insanity.sgp1.digitaloceanspaces.com/coverage/paf2.giphy/jacoco.svg)

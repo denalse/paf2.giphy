@@ -1,6 +1,6 @@
 My first workflow
 
-[![Compile, test, deploy](https://github.com/denalse/paf2.giphy/actions/workflows/main.yaml/badge.svg)](https://github.com/denalse/paf2.giphy/actions/workflows/main.yaml)
+[![Compile, test, deploy](https://github.com/denalse/paf2.giphy/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/denalse/paf2.giphy/actions/workflows/main.yaml)
 
 Jacoco coverage badge
 
